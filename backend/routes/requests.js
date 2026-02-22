@@ -7,9 +7,7 @@ const router = express.Router();
 const adoptionsFile = path.join(__dirname, "../data/adoptions.json");
 const releasesFile = path.join(__dirname, "../data/releases.json");
 
-// --------------------
 // Helper functions
-// --------------------
 const readJSON = (filePath) =>
   new Promise((resolve, reject) => {
     fs.readFile(filePath, "utf8", (err, data) => {
@@ -26,10 +24,7 @@ const writeJSON = (filePath, data) =>
     });
   });
 
-// --------------------
 // ADOPTIONS
-// --------------------
-
 // GET all adoptions
 router.get("/adoptions", async (req, res) => {
   try {
@@ -86,10 +81,7 @@ router.put("/adoptions/:id", async (req, res) => {
   }
 });
 
-// --------------------
 // RELEASES
-// --------------------
-
 // GET all releases
 router.get("/releases", async (req, res) => {
   try {

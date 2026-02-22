@@ -3,21 +3,21 @@
   gap: 40px;
   align-items: flex-start;
   margin-top: 30px;
-  flex-wrap: wrap; /* allows stacking on smaller screens */
+  flex-wrap: wrap;
 }
 
 /* Pet image */
 .pet-details img {
   width: 400px;
-  max-width: 100%; /* makes it responsive */
+  max-width: 100%; 
   border-radius: 10px;
-  flex-shrink: 0; /* prevents shrinking too much */
+  flex-shrink: 0; 
 }
 
 /* Pet info */
 .pet-info {
   max-width: 500px;
-  flex: 1; /* takes remaining space next to image */
+  flex: 1; 
 }
 
 .pet-info h1 {
@@ -37,7 +37,7 @@
   border: none;
   border-radius: 12px;
   cursor: pointer;
-  background: linear-gradient(135deg, #ff9a8b, #ff6a88); /* warm gradient */
+  background: linear-gradient(135deg, #ff9a8b, #ff6a88); 
   color: white;
   box-shadow: 0 6px 15px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
@@ -51,7 +51,7 @@
 
 /* Back button with different color scheme */
 .back-button {
-  background: #a0c4ff; /* cool blue for contrast */
+  background: #a0c4ff; 
   border: none;
   padding: 8px 16px;
   border-radius: 8px;
@@ -68,7 +68,7 @@
 /* Responsive adjustments */
 @media (max-width: 900px) {
   .pet-details {
-    flex-direction: column; /* image on top, info below */
+    flex-direction: column; 
     align-items: center;
   }
 

@@ -20,7 +20,7 @@ function Navbar({ user, setUser }) {
 
         // Use a small delay to ensure state updates before navigating
         setTimeout(() => {
-          navigate("/", { replace: true }); // guaranteed redirect home
+          navigate("/", { replace: true });
         }, 50);
       } else {
         console.error("Logout failed on server");

@@ -1,5 +1,4 @@
 /* ===== LOGIN PAGE ===== */
-
 .login-container {
   height: 80vh;
   display: flex;
@@ -26,19 +25,19 @@
 .login-card input,
 .login-card button {
   width: 100%;
-  box-sizing: border-box; /* Include padding in width */
+  box-sizing: border-box; 
 }
 
 .login-card input {
-  padding: 12px;           /* slightly taller for consistency */
-  margin: 10px 0;          /* spacing between inputs */
+  padding: 12px;        
+  margin: 10px 0;         
   border-radius: 8px;
   border: 1px solid #ccc;
 }
 
 .login-card button {
-  padding: 12px;           /* match input height */
-  margin: 12px 0 0 0;      /* top margin only, no extra bottom */
+  padding: 12px;         
+  margin: 12px 0 0 0;     
   background: #ff914d;
   color: white;
   border: none;
@@ -54,11 +53,10 @@
 
 .error {
   color: red;
-  margin-top: 12px;       /* properly spaced from button */
+  margin-top: 12px;    
 }
 
 /* ===== DASHBOARD ===== */
-
 .dashboard-container {
   padding: 20px;
 }

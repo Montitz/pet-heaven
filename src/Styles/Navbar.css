@@ -11,8 +11,8 @@
 }
 
 .navbar-logo img {
-  height: 300px;   /* adjust this value as needed */
-  width: auto;    /* keeps the aspect ratio */
+  height: 300px;  
+  width: auto;   
 }
 
 @media (max-width: 600px) {
@@ -31,7 +31,7 @@
 .navbar-links {
   display: flex;
   align-items: center;
-  gap: 6px; /* minimal space between links */
+  gap: 6px; 
 }
 
 /* Regular links */
@@ -54,7 +54,7 @@
   background-color: white;
   color: #ff7f50;
   border: none;
-  padding: 4px 8px; /* same size as links */
+  padding: 4px 8px; 
   border-radius: 4px;
   font-weight: bold;
   cursor: pointer;
@@ -71,7 +71,7 @@
 /* Ensure login/logout buttons are same width as each other */
 .navbar-links button,
 .navbar-links a {
-  min-width: auto; /* removes extra width from buttons */
+  min-width: auto; 
 }
 
 /* Footer */
