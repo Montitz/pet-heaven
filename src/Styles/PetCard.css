@@ -1,0 +1,74 @@
+.pet-card {
+  background: #fff9f5; /* soft warm background */
+  border-radius: 12px;
+  padding: 15px;
+  width: 260px; /* fixed width to align cards nicely */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pet-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+.pet-card-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.pet-card h3 {
+  margin: 5px 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.pet-card p {
+  font-size: 0.9rem;
+  margin: 3px 0;
+  color: #555;
+}
+
+.pet-description {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 8px;
+  line-height: 1.3;
+}
+
+.adopt-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #ff9a8b, #ff6a88);
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.adopt-btn:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+/* Optional: make cards responsive */
+@media (max-width: 800px) {
+  .pet-card {
+    width: 45%; /* 2 per row */
+  }
+}
+
+@media (max-width: 500px) {
+  .pet-card {
+    width: 90%; /* 1 per row */
+  }
+}

@@ -1,0 +1,57 @@
+/* adoptionSuccess.css */
+
+.success-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  text-align: center;
+  background-color: #fff8f0;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  font-family: Arial, sans-serif;
+}
+
+.success-container h1 {
+  color: #f8b500;
+  margin-bottom: 20px;
+  font-size: 2.2rem;
+}
+
+.success-container p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.success-container .pet-picture {
+  max-width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.success-container button {
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #ff9a8b, #ff6a88);
+  color: white;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* space between the buttons */
+  margin-top: 20px;
+}
+
+.button-group button:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}

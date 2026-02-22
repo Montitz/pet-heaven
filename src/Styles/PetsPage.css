@@ -1,0 +1,25 @@
+.page-container {
+  max-width: 900px;   /* fits 3 cards nicely */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.pets-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns max */
+  gap: 20px;                             /* space between cards */
+  justify-items: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 800px) {
+  .pets-list {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+  }
+}
+
+@media (max-width: 500px) {
+  .pets-list {
+    grid-template-columns: 1fr;           /* 1 column on very small screens */
+  }
+}
