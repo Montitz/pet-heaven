@@ -12,7 +12,7 @@ function VolunteerForm() {
   });
 
   const [errors, setErrors] = useState({
-    name: true,   // start as true to disable button initially
+    name: true, 
     email: true,
     phone: true,
   });

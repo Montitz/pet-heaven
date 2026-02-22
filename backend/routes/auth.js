@@ -10,7 +10,7 @@ router.use(session({
   secret: "petheavenSecret",
   resave: false,
   saveUninitialized: false,
-  cookie: { secure: false } // true if HTTPS in production
+  cookie: { secure: false }
 }));
 
 // Login route
